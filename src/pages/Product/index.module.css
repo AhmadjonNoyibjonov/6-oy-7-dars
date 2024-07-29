@@ -1,0 +1,76 @@
+.details {
+  display: flex;
+  border: 1px solid #ababab;
+  box-shadow: 1px 1px 15px 10px rgba(128, 128, 0, 0.8);
+  width: 800px;
+  margin: 150px auto;
+  padding: 30px;
+  border-radius: 6px;
+  background-color: olive;
+}
+
+.wrap {
+  margin-left: 50px;
+}
+
+.details img {
+  border-radius: 8px;
+}
+
+.wrap h1 {
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #11101a;
+}
+
+.wrap .comment {
+  font-size: 20px;
+  opacity: 80%;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #11101a;
+}
+
+.wrap span {
+  display: flex;
+  gap: 30px;
+}
+
+.wrap span .new {
+  color: #008812;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: line-through;
+  opacity: 40%;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #0088;
+}
+
+.canel {
+  width: 120px;
+  height: 40px;
+  margin-top: 270px;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 200px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 1s;
+}
+
+.canel:hover {
+  background-color: #2980b9;
+}
