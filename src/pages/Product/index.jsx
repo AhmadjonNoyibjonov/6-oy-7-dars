@@ -29,7 +29,7 @@ function Product() {
           <p className={styles.new}>{product.newPrice / 1000}₽</p>
           <p className={styles.price}>{product.oldPrice / 1000}₽</p>
         </span>
-        <h3>{product.category}</h3>
+        <h3> Category:git{product.category}</h3>
       </div>
       <button className={styles.canel} onClick={handleCanel}>
         Back{" "}

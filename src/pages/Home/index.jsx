@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 function Home() {
   const [products, setProduct] = useState([]);
   const [filterProducts, setFilterProducts] = useState([]);
-  const [selectCategory, setSelectCategory] = useState("all");
+  // const [selectCategory, setSelectCategory] = useState("all");
 
   async function GetData(url) {
     try {
@@ -56,8 +56,6 @@ function Home() {
       );
       setFilterProducts(filter);
     }
-
-    console.log(event.target.value);
   }
 
   return (

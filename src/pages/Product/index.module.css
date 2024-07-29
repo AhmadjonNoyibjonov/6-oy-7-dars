@@ -14,6 +14,7 @@
 }
 
 .details img {
+  width: 600px;
   border-radius: 8px;
 }
 
@@ -38,7 +39,7 @@
 }
 
 .wrap span .new {
-  color: #008812;
+  color: chocolate;
   font-size: 20px;
   font-weight: 600;
 }
@@ -59,12 +60,12 @@ h3 {
 .canel {
   width: 120px;
   height: 40px;
-  margin-top: 270px;
+  margin-top: 350px;
   background-color: aqua;
   color: white;
   border: none;
   border-radius: 5px;
-  margin-left: 200px;
+  margin-left: 20px;
   cursor: pointer;
   font-size: 20px;
   font-weight: 600;
